@@ -1,14 +1,14 @@
-option1,
-option2 {
+.option1,
+.option2 {
     font-size: 28px;
     font-family: "Helvetica", "Times New Roman", sans-serif;
 }
 
-option1 {
+.option1 {
     color: rgb(255,255,255);
     background-color: rgb(0,0,0);
 }
 
-option2 {
+.option2 {
     background-color: rgb(255, 255, 0);
 }
