@@ -27,3 +27,40 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My Solution */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  
+}
+
+.content {
+  display: flex;
+  flex: 1 0 0;
+}
+
+.sidebar {
+  padding: 0px 16px;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+
+.sidebar li {
+  list-style-type: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  text-justify: center;
+}
