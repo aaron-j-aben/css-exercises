@@ -48,7 +48,7 @@ ul {
 }
 
 /* My Solution */
-header, .left-items, .right-items {
+.header, .left-items, .right-items {
   display: flex;
   align-items: center;
   margin: 8px;
@@ -69,12 +69,12 @@ header, .left-items, .right-items {
 }
 
 .left-items {
-  flex: 1 1 0;
+  flex: 1 0 auto;
   justify-content: start;
 }
 
 .right-items {
-  flex: 1 1 0;
+  flex: 1 0 auto;
   justify-content: end;
   gap: 16px;
 }
