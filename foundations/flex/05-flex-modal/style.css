@@ -97,4 +97,9 @@ button.cancel {
 .text {
   margin-top: 8px;
   margin-bottom: 12px;
+  max-width: 395px;
+}
+
+.modal {
+  min-width: 280px;
 }
