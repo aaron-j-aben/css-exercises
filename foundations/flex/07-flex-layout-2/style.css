@@ -34,17 +34,15 @@ body {
   flex-direction: column;
 }
 
-.header {
-  
-}
-
 .content {
   display: flex;
   flex: 1 0 0;
 }
 
 .sidebar {
+  flex: 1 0 auto;
   padding: 0px 16px;
+  width: 300px;
 }
 
 .sidebar ul {
